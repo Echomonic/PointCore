@@ -1,0 +1,12 @@
+name: PointCore
+version: ${project.version}
+main: dev.echo.pointcore.PointCore
+api-version: 1.16
+description: A point system
+
+commands:
+  points:
+    description: set the players points!
+    aliases:
+      - p
+      - point
